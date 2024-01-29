@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Open+Sans:wght@300;400;700&family=Playfair+Display&family=Ubuntu:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Open+Sans:wght@300;400;700&family=Playfair+Display&family=Roboto+Slab&family=Ubuntu:wght@300&display=swap'); 
+:root{  
+    --text1-color:#FED136;  
+    --text2-color: #222222;  
+    --text3-color:#777777;  
+    --text4-color:#FFFFFF;  
+    --text5-color:#BBBBBB;  
+}  
+body { 
+    font-family: "Montserrat"; 
+} 
+.card-text {  
+    font-family: "Roboto Slab"; 
+    color: var(--text3-color);  
+} 
+.header-menu { 
+    color: var(--text1-color); 
+    display:flex; 
+    list-style-type: none; 
+    justify-content: space-between; 
+    width: 485px; 
+} 
+.card-title{  
+    color: var(--text2-color);  
+}  
+.card-img{  
+    width: 50px;  
+    height: 50px;  
+}  
+.header-logo{  
+    color: var(--text1-color);  
+    font-family: "Bilbo Swash Caps";  
+}  
+.header-link{  
+    color: var(--text1-color);  
+    text-decoration: none;  
+}  
+.services-title{  
+    color: var(--text2-color);  
+    margin-bottom: 110px; 
+}  
+.services-card{  
+    color: var(--text3-color);  
+}  
+.form-title{  
+    color: var(--text4-color);  
+    text-align: center; 
+}  
+.form-input{  
+    color: var(--text5-color);  
+    width: 454px; 
+    height:50px; 
+    margin-bottom: 13px; 
+}  
+.form-button{  
+    color: var(--text4-color);  
+    background-color: var(--text1-color); 
+    width: 242px; 
+    height: 68px; 
+} 
+.form-button-wrap{ 
+    display: flex; 
+    justify-content: center; 
+} 
+.header-container{ 
+    width: 933px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+    margin-top: 40px; 
+} 
+.services-card{ 
+    width: 274px; 
+    height: 185px; 
+} 
+.form{ 
+    background-color: var(--text2-color); 
+    padding: 100px; 
+} 
+.container{ 
+    width: 942px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+} 
+.header{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 90px; 
+} 
+.services{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 934px; 
+} 
+.section-card{ 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 125px; /* відстань знизу */
+    column-gap: 50px; 
+} 
+.section-container{ 
+    display: flex; 
+    justify-content: center; 
+} 
+.footer{ 
+    display: flex; 
+    justify-content: center; 
+} 
+.form-container{ 
+    display: flex; 
+    justify-content: space-between; 
+    width: 942px; 
+} 
+.form-textarea{ 
+    width: 455px; 
+    height: 180px; 
+    color: var(--text5-color); 
+}
